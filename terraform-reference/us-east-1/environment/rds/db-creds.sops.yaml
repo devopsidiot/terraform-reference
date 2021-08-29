@@ -1,0 +1,13 @@
+username: ENC[AES256_GCM,data:9HD8ZjQF,iv:dNQbF6B6VRMxu2dy2L3MJ8iGxQXqEHYspp0Opyp/VrM=,tag:B+Xy8eNYAyr0RehD7U3p9A==,type:str]
+password: ENC[AES256_GCM,data:SP2pXGwE20h1ViPrKJwmzc98ULhZfpfeb1c=,iv:gLh9bcrEVQG22V5YYH8tNpzTrvzeay7iSMVnM/Srv5k=,tag:nHVzDmFuN33lZ/7c1FIANQ==,type:str]
+sops:
+    kms:
+    -   arn: arn:aws:kms:us-east-1:171843949951:key/1446aeff-182f-453b-bf49-fb1bb19e95e3
+        created_at: '2021-01-29T07:08:10Z'
+        enc: AQICAHj0chMVOp4ME+vLv73u0V8JtQMzx3A3Q4Vb3C5cfk478gE09KMv3MKKbPozwgtIMDtwAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMNdNAGYXHqVKaCtq4AgEQgDvjIumz1mZfndjTip1EZfh2zw32Lk4A/XwG8/Bhlzy429/PA90hw3DolqfAOjFF+JFDsfMDJXpqtmkawQ==
+    gcp_kms: []
+    lastmodified: '2021-01-29T07:08:11Z'
+    mac: ENC[AES256_GCM,data:Ns5zuf41LmQlELmBQ/E5psasZqlUMbSwWvzLByR5ymP4q6Zls4ue2w3I1SuikZ0Ys5AKT7valTqQLB5xwrIPRlllZfvzklsVj/oavB5/ULJ9z5TSa7IfiqixQZy3bxsRl+GBLIjTJNw5QLiyNFm80NXEKGpGpaFWtpoFBI0OHj8=,iv:ciiXf94DGbdWywnQ+PhAcGRklbrI8GIgj2v/TqCZGL4=,tag:5x8iGYO8amL8AqDHQMBQwA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.0.3

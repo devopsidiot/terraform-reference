@@ -1,0 +1,2 @@
+#!/bin/bash
+sops --config ../kms/devops/.sops.yaml --encrypt db-creds.decrypted.yaml > db-creds.sops.yaml

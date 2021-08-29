@@ -1,0 +1,2 @@
+#!/bin/bash
+sops --decrypt  db-creds.sops.yaml > db-creds.decrypted.yaml

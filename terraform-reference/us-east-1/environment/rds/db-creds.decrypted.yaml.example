@@ -1,0 +1,3 @@
+# Edit this file and run ./encrypt. Do not commit the unencrytped yaml.
+username: master
+password: "Change this to something SECURE"

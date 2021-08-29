@@ -1,0 +1,2 @@
+#!/bin/bash
+sops --encrypt --config ../../kms/devops/.sops.yaml api-key.decrypted.yaml > api-key.sops.yaml

@@ -1,0 +1,2 @@
+#!/bin/bash
+sops --decrypt  pd-api-key.sops.yaml > pd-api-key.decrypted.yaml
